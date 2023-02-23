@@ -4,6 +4,7 @@ ethernet:
   mdio_pin: GPIO17
   clk_mode: GPIO0_IN
   phy_addr: 0
+  domain: .keneli.org
 
 text_sensor:
   - platform: ethernet_info
