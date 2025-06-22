@@ -1,5 +1,7 @@
 esphome:
   name: $name
+  friendly_name: ${friendly_name}
+  
   project:
     name: $project_name
     version: $project_version
